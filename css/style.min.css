@@ -151,6 +151,7 @@ ul.disc {
 .navbar .navbar-toggle {
   margin-top: 16px;
   margin-right: 25px;
+  z-index: 100;
 }
 .navbar .navbar-collapse {
   margin-top: 0;
