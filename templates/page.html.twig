@@ -65,7 +65,7 @@
   <!--start: Container -->
   <div class="container">
     <div class="row">
-     <!--- Start : Header --->
+     <!--- Start : Header -->
     <!-- Sitename and toggle get grouped for better mobile display -->
     <div class="navbar-header col-md-3">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navigation">
@@ -78,14 +78,14 @@
         {{ page.header }}
       {% endif %}
     </div>
-    <!--- End :Header---->
+    <!--- End :Header -->
 
-    <!--- Start: Navigation ------>
+    <!--- Start: Navigation -->
     <div class="col-md-9">
     {% if page.primary_menu %}
       {{ page.primary_menu }}
     {% endif %}
-    <!---End: Navigation ---->
+    <!---End: Navigation -->
     </div>
     </div>
   </div>
@@ -93,7 +93,7 @@
 </nav>
 <!--end: Header and Navbar -->
 
-<!--- Start: Page Title ---->
+<!--- Start: Page Title -->
 {%  if page.page_title and  not is_front %}
 
   <div id="page-title">
@@ -105,7 +105,7 @@
     </div>
   </div>
 {% endif %}
-<!--- End:Page Title ---- >
+<!--- End:Page Title -->
 
 <!-- start: Slider -->
 {% if is_front %}
@@ -123,29 +123,29 @@
 {% endif %}
 <!-- end: Slider -->
 
-<!--- Start:layout ----->
+<!--- Start:layout -->
 <div id="wrapper">
   <!-- start: Container -->
   <div class="container">
-    <!---Start:highlighted---->
+    <!---Start:highlighted -->
       {% if page.highlighted %}
         <div class="jumbotron">
           {{ page.highlighted }}
         </div>
       {% endif %}
-    <!---End:highlighted---->
+    <!---End:highlighted -->
 
-    <!---Start:content top---->
+    <!---Start:content top -->
       {% if page.content_top %}
         <div class="row">
           {{ page.content_top }}
         </div>
       {% endif %}
-    <!---End:Content top---->
+    <!---End:Content top -->
     <!-- start: Row -->
-    <!--start:content ---->
+    <!--start:content -->
     <div class="row layout">
-      <!---- Start:Left SideBar ----->
+      <!-- Start:Left SideBar -->
       {% if page.sidebar_first %}
         <div class="sidebar" >
           <div class = {{  sidebarfirst }} >
@@ -153,9 +153,9 @@
           </div>
         </div>
       {% endif %}
-      <!----End:Right SideBar ------>
+      <!-- End:Right SideBar -->
 
-      <!---- Start:content ----->
+      <!-- Start:content -->
       {% if page.content %}
         <div class = " content_layout ">
           <div class= {{ contentlayout }}>
@@ -164,9 +164,9 @@
           </div>
         </div>
       {% endif %}
-      <!----End:content ------>
+      <!-- End:content -->
 
-      <!---- Start:Right SideBar ----->
+      <!-- Start:Right SideBar -->
       {% if page.sidebar_second %}
         <div class="sidebar">
           <div class={{  sidebarsecond }}>
@@ -174,19 +174,19 @@
           </div>
         </div>
       {% endif %}
-      <!----End:Right SideBar ------>
+      <!-- End:Right SideBar -->
     </div>
-    <!---End:Content ----->
-    <!---Start:content bottom---->
+    <!---End:Content -->
+    <!---Start:content bottom -->
     {% if page.content_bottom %}
       <div class="row">
         {{ page.content_bottom }}
       </div>
     {% endif %}
-    <!---End:Content Bottom---->
+    <!-- End:Content Bottom -->
   </div>
 </div>
-<!--- End:layout --->
+<!--- End:layout -->
 
 <!-- start: Footer Menu -->
 {% if page.footer_menu %}
@@ -231,36 +231,36 @@
     <div class="container">
       <!-- start: Row -->
       <div class="row">
-        <!--- Start:Footer First Region --->
+        <!--- Start:Footer First Region -->
         <div class = {{ footer_class }}>
           {% if page.footer_first %}
             {{ page.footer_first }}
           {% endif %}
         </div>
-        <!--- End :Footer First Region --->
-        <!--- Start:Footer Second Region --->
+        <!--- End :Footer First Region -->
+        <!--- Start:Footer Second Region -->
         <div class = {{ footer_class }}>
           {% if page.footer_second %}
             {{ page.footer_second }}
           {% endif %}
         </div>
-        <!--- End:Footer Second Region --->
-        <!--- Start:Footer third Region --->
+        <!--- End:Footer Second Region -->
+        <!--- Start:Footer third Region -->
         <div class = {{ footer_third_class }}>
           {% if page.footer_third %}
             {{ page.footer_third }}
           {% endif %}
         </div>
-        <!--- End:Footer Third Region --->
+        <!--- End:Footer Third Region -->
       </div>
     </div>
   </div>
 
 {% endif %}
 
-<!---End :Footer --->
+<!---End :Footer -->
 
-<!---Start:Footer Botoom --->
+<!--- Start:Footer Botoom -->
 <div id="copyright">
   <!-- start: Container -->
   <div class="container">
@@ -283,7 +283,3 @@
     </div>
   </div>
 </div>
-
-
-
-

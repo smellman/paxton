@@ -64,11 +64,7 @@ function paxton_preprocess_page(&$variables) {
   else {
     $variables['contentlayout'] = 'col-sm-12';
   }
-  //To get the current url
-  $current_url  = \Drupal::request()->getRequestUri();
-  $current_path = explode("/", $current_url);
-  $variables['current_path'] = $current_path[2];
- // Asign Variable for Slider
+  // Asign Variable for Slider
   if ($variables['is_front']) {
     if (theme_get_setting('slideshow_display','paxton') == 1) {
       $variables['slideshow_display'] = 1;
