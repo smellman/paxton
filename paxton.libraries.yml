@@ -26,9 +26,6 @@ global-css:
     js/jquery.cslider.js: {}
     js/slider.js: {}
     js/jquery.fancybox.js: {}
-    js/jquery.gmap.min.js: {}
-    http://maps.google.com/maps/api/js?sensor=true: {}
-    js/location.js: {} 
     js/custom.js: {}
   dependencies:
     - core/jquery
