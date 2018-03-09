@@ -29,7 +29,7 @@ regions:
   footer_third: 'Fooder Third'
   footer_bottom: 'Fooder Bottom'
 # Information added by Drupal.org packaging script on 2015-03-18
-version: '8.0.0-rc4'
+version: '8.0.0-rc5'
 core: '8.x'
 project: 'Paxton'
-datestamp: 1426639082
+datestamp: 1520621215
